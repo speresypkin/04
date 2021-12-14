@@ -6,6 +6,7 @@ public class Main {
 
         int numberClients = 3;
         int numberDeliveryOptions = 0;
+
         do {
             numberDeliveryOptions += numberClients;
         } while (numberClients-- > 0);
